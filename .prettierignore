@@ -1,0 +1,14 @@
+# Ignore artifacts:
+
+tsconfig.json
+package.json
+prettierrc.json
+package-lock.json
+Public/index.html
+Public/contact.html
+Public/dining.html
+Public/info.html
+Public/rooms.html
+
+
+
