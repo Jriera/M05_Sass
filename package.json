@@ -1,0 +1,44 @@
+{
+  "name": "m05_sass",
+  "version": "1.0.0",
+  "description": "Projecte Sass per IT Academy",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "eslint": "eslint Public/** --fix",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jriera/M05_Sass.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html"
+  ],
+  "author": "Jriera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jriera/M05_Sass/issues"
+  },
+  "homepage": "https://github.com/Jriera/M05_Sass#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^7.28.0",
+    "@types/node": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.4.0",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
